@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Calculadora VD</title>
+</head>
+<body>
+    <div class="container">
+        <h3 class="center">Calculadora VD</h3>
+        <form class="container">
+            <fieldset>
+                <legend><b>Calculadora</b></legend>
+                <div class="container">
+                    <div class="row">
+                        <div class="input-field col s6"><input id="num1" type="number" class="validate">
+                            <label for="num1">1º numero</label></div>
+                        <div class="input-field col s6"><input id="num2" type="number" class="validate">
+                            <label for="num2">2º numero</label></div>
+                        <div class="center">
+                            <button type="button" onclick="somar();">Somar</button>
+                            <button type="button" onclick="subtrair();">Subtrair</button>
+                            <button type="button" onclick="multiplicar();">Multiplicar</button>
+                            <button type="button" onclick="dividir();">Dividir</button>
+                        </div>
+                    </div>
+                </div>
+                <p id="result" class="center"></p>
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="calculadora.js"></script>
+</html>
